@@ -1,1 +1,10 @@
-Here we keep track of our work.
+Week 1
+The first week we got an introduction to the course and the software we are going to use. 
+This encompassed an introduction to computational design, procedural design and Houdini.
+On Wednesday we went on a field trip to the site location in Rotterdam to, among other things, 
+get a feeling for scale, typology, surroundings, possibilities, etc.
+
+On Thursday we worked on the program of requirements and had our first consultations. For the PoR
+we used the design brief, but we also used our self-defined design principles with relation to
+extra functions, relations between the different occupants, and collective space. We created a
+network diagram based on the functions in our building.
