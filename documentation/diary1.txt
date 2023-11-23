@@ -8,3 +8,6 @@ On Thursday we worked on the program of requirements and had our first consultat
 we used the design brief, but we also used our self-defined design principles with relation to
 extra functions, relations between the different occupants, and collective space. We created a
 network diagram based on the functions in our building.
+
+
+Week 2
