@@ -7,7 +7,16 @@ get a feeling for scale, typology, surroundings, possibilities, etc.
 On Thursday we worked on the program of requirements and had our first consultations. For the PoR
 we used the design brief, but we also used our self-defined design principles with relation to
 extra functions, relations between the different occupants, and collective space. We created a
-network diagram based on the functions in our building.
+network diagram based on the functions in our building and also partly based on the already existing surroundings.
 
 
 Week 2
+This week we focussed on the start of our project with making a document in houdini where we included the 3DBag data with the 
+surroundings of the destined location, learned at the consultations of tuesday. We also made an excel table where we weighted the 
+importance of various functions to be close to eachother. This file can be put in as a parameter to use with making a bubble diagram. 
+
+After the consultations on tuesday, we continued working on the voxel grid and the bubble diagram. The voxel grid is now included in
+the surroundings, so that a calculation can be made on the voxel grid, compared to the near surroundings. We also assigned the needed
+square meters per function. 
+
+Week 3
