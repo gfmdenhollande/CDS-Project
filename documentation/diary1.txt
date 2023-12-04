@@ -19,4 +19,15 @@ After the consultations on tuesday, we continued working on the voxel grid and t
 the surroundings, so that a calculation can be made on the voxel grid, compared to the near surroundings. We also assigned the needed
 square meters per function. 
 
+
 Week 3
+This week on tuesday during class, we learned about how we can make a sunpath analysis so we can apply it ourselves. We also got a 
+Lecture about the real masterplan for the area. After that on Tuesday we worked on the adjacency matrix. 
+
+For Thursday we worked on the user scenarios to see how the building could possibly be used and what should be taken into account while 
+designing the building. We also were able to put the data of the REL chart and data about the building, for example area's, in a houdini
+file. This made us a bubble diagram where the bubbles represent the different functions. It shows a globally defined layout of the
+different functions.
+
+
+Week 4
