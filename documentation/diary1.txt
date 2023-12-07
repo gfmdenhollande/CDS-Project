@@ -31,4 +31,9 @@ different functions.
 
 
 Week 4
-This monday we put our building in the sunpath analysis. 
+This monday we put our building in the sunpath analysis. With this we calculated how much light each voxel in the building envelop is
+able to get and the voxels with an too low amount of hours of light are removed out of the building envelop. Besides caclulating on 
+our own building, we also made a file where we can calculate the hours of shadow the surrounding is about to get as a result of our
+building envelop, because we want to make sure the sourrinding is not effected to much in light hours by our building. We also started
+on making a houdini file to make a calculation to generize region growing with seed selection so that the function can be allocated in
+the building envelop. 
