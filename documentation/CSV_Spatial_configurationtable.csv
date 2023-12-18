@@ -1,0 +1,15 @@
+﻿Point X,Point Z,Point Y adjusted,Index,Connection Indices,Cluster,Location,Area,graphAreaWeight,ID,
+0,0,0,1,"2,3,4,5,6",1,Housing_entrance,450,1,Housing_entrance
+0,0,0,2,"1,7,13",1,Starter_houses,12500,1,Starter_houses
+0,0,0,3,"1,7,13",1,Student_houses,10000,1,Student_houses
+0,0,0,4,"1",1,Private_parking,16000,1,Private_parking
+0,0,0,5,"1,13",1,Independent_elderly_houses,6500,1,Independent_elderly_houses
+0,0,0,6,"1,9,13",1,Dependent_elderly_houses,6500,1,Dependent_elderly_houses
+0,0,0,7,"2,3",1,Shared_workspaces,2000,0,7,Shared_workspaces
+0,0,0,8,"11,14",2,Supermarket,800,0,9,Supermarket
+0,0,0,9,"6,14",3,Care_center_elderly,1000,0,8,Care_center_elderly
+0,0,0,10,"14",3,Cafe,200,0,7,Cafe
+0,0,0,11,"8",2,Loading_dock,200,0,9,Loading_dock
+0,0,0,12,"14",3,Gym,950,0,8,Gym
+0,0,0,13,"2,3,5,6",1,Atrium,2000,0,9,Area
+0,0,0,14,"8,9,10,12",2,Public_parking,2000,0,9,Public_parking
