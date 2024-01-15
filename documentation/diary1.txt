@@ -37,3 +37,18 @@ our own building, we also made a file where we can calculate the hours of shadow
 building envelop, because we want to make sure the sourrinding is not effected to much in light hours by our building. We also started
 on making a houdini file to make a calculation to generize region growing with seed selection so that the function can be allocated in
 the building envelop. 
+
+
+Week 5
+This week we prepared for the midterm presentation of our project. The midterm presentation included our voxelized building envelope,
+shaped by a, still simple, version of the shadow analysis. Continued by a global layout in the functions in the building made with
+a region growing algorithm, based on our preferences on where the functions should be located in the building.
+
+
+Week 6
+This week we made progress in the region growing algorithm after discovering some defects. We also assigned a rule to the algorithm so
+that the functions stay put to the groundfloor and that the building is not higher then 15 floors. Something we will still look into
+is where to put the garage, because it's taking up too much space on the ground floor. We also worked on the making of the shadow
+casting analysis and found a way to make primitives, 5 by 3 metre, out of the surrounding buildings. Furthermore, we also started to 
+look at the facade of the building and what we want to do with it. Our first idea on what to do with the building, is to make circle,
+shaped windows, with a size depending on the amount of light we want to have in a certain area of the building. 
