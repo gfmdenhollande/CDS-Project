@@ -1,0 +1,9 @@
+Built coverage area: percentage of site that is built on. 
+1. Get a list of all the voxels on the ground floor level
+2. Count how many voxels there are, store in variable. e.g. called 'sitevoxels'
+3. BCR is defined in a range of [0,1]
+4. Start the region growing, store the voxels that are built on in variable 'builtvoxels'
+5. Overwrite the values for all other voxels and the voxels above those when builtvoxels = sitevoxels x BCR
+6. Run region growing till every function has 2.5x it's desired floor area
+7. Store all the occupied voxels in a new group
+8. Run the simulation again, but this time only till the desired floor area is reached
