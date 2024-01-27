@@ -1,0 +1,12 @@
+﻿Point X,Point Z,Point Y,Index,Cluster,Location,Area,graphAreaWeight,ID,Blockiness,Flatness
+0,0,0,1,1,Housing_entrance,450,1,Housing_entrance,0.4,1.0
+0,0,0,2,1,Starter_houses,20500,1,Starter_houses,0.2,0.0
+0,0,0,3,1,Student_houses,15000,1,Student_houses,0.2,0.0
+0,0,0,5,1,Independent_elderly_houses,10000,1,Independent_elderly_houses,0.2,0.0
+0,0,0,6,1,Dependent_elderly_houses,6500,1,Dependent_elderly_houses,0.2,0,0
+0,0,0,7,1,Shared_workspaces,2000,0.7,Shared_workspaces,0.5,0.0
+0,0,0,8,2,Supermarket,1500,0.9,Supermarket,0.8,1.0
+0,0,0,9,3,Care_center_elderly,1500,0.8,Care_center_elderly,0.3,0.0
+0,0,0,10,3,Cafe,250,0.7,Cafe,0.8,0.0
+0,0,0,11,2,Loading_dock,200,0.9,Loading_dock,0.5,1.0
+0,0,0,12,3,Gym,1200,0.8,Gym,0.5,0.0
