@@ -33,7 +33,7 @@
                 <h3 class="w3-wide"><b>MENU</b></h3>
             </div>
             <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
-                <a href="initialization.html" class="w3-button w3-block w3-white w3-left-align">Initialization</a>
+                <a href="initialization.html" class="w3-bar-item w3-button">Initialization</a>
                 <a href="shaping.html" class="w3-bar-item w3-button">Shaping</a>
                 <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-bar-item w3-button" id="myBtn">
                     Analyses <i class="fa fa-caret-down"></i>
@@ -45,7 +45,7 @@
                     <a href="closenesstoground.html" class="w3-bar-item w3-button">Closeness to ground</a>
                 </div>
                 <a href="functiongrowing.html" class="w3-bar-item w3-button">Function growing</a>
-                <a href="plans.html" class="w3-bar-item w3-button">Plans</a>
+                <a href="plans.html" class="w3-button w3-block w3-white w3-left-align">Plans</a>
                 <a href="facade.html" class="w3-bar-item w3-button">Facade</a>
                 <a href="renders.html" class="w3-bar-item w3-button">Renders</a>
                 <a href="documentation.html" class="w3-bar-item w3-button">Documentation</a>
@@ -68,25 +68,16 @@
             
             <!-- Top header -->
             <header class="w3-container w3-xlarge">
-                <p class="w3-left">Initialization</p>
+                <p class="w3-left">Plans</p>
             </header>
         
             <div class="w3-container w3-text-black" id="sunlight">
-                <p>Flowchart</p>
-            </div>
-
-            <!-- Image -->
-            <div class="w3-display-container w3-container">
-                <img src="flowchart_process.png" alt="Flowchart design process" style="width:100%">
-            </div>
-
-            <div class="w3-container w3-text-black" id="sunlight">
-                <p>Hier kan meer info</p>
+                <p>Hier kan allemaal info</p>
             </div>
 
             <!-- Footer -->
-            <footer class="w3-container w3-dark-grey">
-                <p>Suzanne Erenst, Lapo den Hollander, Bart Koppejan // BK7083 // 2024 // TUDelft</p>
+            <footer class="w3-container w3-dark-grey" style="padding:32px">
+                <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
             </footer>
 
         <!-- End page content -->
@@ -105,6 +96,7 @@
             
             // Click on the "Jeans" link on page load to open the accordion for demo purposes
             document.getElementById("myBtn").click();
+            
             
             // Open and close sidebar
             function w3_open() {
