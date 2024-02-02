@@ -15,17 +15,6 @@
     </head>
 
     <body class="w3-light-grey">
-        <!-- w3-content defines a container for fixed size centered content, 
-        and is wrapped around the whole page content, except for the footer in this example -->
-        <div class="w3-content" style="max-width:1600px">
-            
-            <!-- Header -->
-            <header class="w3-container w3-center w3-padding-48 w3-white">
-                <h1 class="w3-xxxlarge"><b>SHERLOCK HOMES</b></h1>
-                <h6>We find the best home <span class="w3-tag">for you</span></h6>
-            </header>
-        </div> 
-
         <!-- Sidebar/menu -->
         <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
             <div class="w3-container w3-display-container w3-padding-16">
@@ -67,13 +56,49 @@
             <!-- Push down content on small screens -->
             <div class="w3-hide-large" style="margin-top:83px"></div>
             
+            <!-- Header -->
+            <header class="w3-container w3-center w3-padding-48 w3-dark-grey">
+                <h1 class="w3-xxxlarge"><b>SHERLOCK HOMES</b></h1>
+                <h6>We find the best home <span class="w3-tag">for you</span></h6>
+            </header>
+
             <!-- Top header -->
             <header class="w3-container w3-xlarge">
                 <p class="w3-left">Shaping</p>
             </header>
         
             <div class="w3-container w3-text-black" id="sunlight">
-                <p>Hier kan allemaal info</p>
+                <p>After analyzing and exploring the details of the area, the formation of the building could start. To perform calculations, we needed to establish an 
+                    initial shape for the building, allowing the computer to then generate further iterations. We opted to shape the initial building envelope using voxels 
+                    measuring 3.6 by 3.6 by 3 meters. This dimension aligns with a standard grid size of 7.2 meters. The building's form emerged by considering several 
+                    characteristics of the area that we aimed to incorporate into the final design. For instance, it was crucial for us that the building maintained a 
+                    distance from the structures behind it, creating an open street for the entrances of other buildings. We also took into account the yellow route as 
+                    a guiding principle.</p>
+                <p>A pivotal starting point in our process is the REL Chart that we developed. In this chart, we weigh all significant functions against each other, 
+                    influencing the final calculation based partly on our subjective perspective regarding the distribution of functions within the building. This chart 
+                    played a crucial role in the eventual region growing phase of the process. </p>
+            </div>
+            
+            <div class="w3-container w3-text-black" id="sunlight">
+                <p>REL chart</p>
+            </div>
+
+            <!-- Image -->
+            <div class="w3-display-container w3-container">
+                <img src="RELchart.png" alt="REL chart" style="width:100%">
+            </div>
+
+            <div class="w3-container w3-text-black" id="sunlight">
+                <p><br>Full voxel cloud. Limit set to 40 stories</p>
+            </div>
+
+            <!-- Image -->
+            <div class="w3-display-container w3-container">
+                <img src="shape.png" alt="voxel cloud" style="height:400px">
+            </div>
+
+            <div class="w3-container w3-text-black" id="sunlight">
+                <p></p>
             </div>
 
             <!-- Footer -->

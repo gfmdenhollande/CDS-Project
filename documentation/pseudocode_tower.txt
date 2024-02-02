@@ -1,0 +1,44 @@
+Start: pointcloud resulting from shadow casting and sunlight analysis
+
+---
+attribwrangle3: (detail)
+
+int sf[];
+int floors = chi("floors");
+for (int i = 0; i < floors; i++) {
+    append(sf, 0);
+}
+
+for (int i = 0; i < npoints(0); i++) {
+    vector temp_point = point(0, "P", i);
+    float point_y = temp_point.y;
+    int floornr = floor(rint((point_y - 1.5) / 3));
+    sf[floornr] = sf[floornr] + 1;
+}
+
+i[]@sort = argsort(sf);
+i[]@sizefloor = sf;
+
+
+Initialize a list with as many indices as there are floors to store information about every floor.
+	Run over all points:
+get the y-coordinate
+calculate which floornumber it is on
+add 1 to the index of that floor. 
+
+set the list and a list of sorted indices as detail attribute
+---
+Create a group 'smallestfloor'
+---
+attribwrangle4: (points)
+the first value in the sorted list is the index of the smallest floor. 
+get the y-coordinate of the point and calculate what floor it is on. 
+If the point is on the smallest floor, set the value to 1 in the group smallestfloor. 
+---
+Perform k-means clustering on the points of the smallest floor with the cluster node. We're looking for two towers, so we set the clusters to 2. 
+
+We set the y-coordinate of those points to 1.5, the height of the points on the ground floor, and copy the points to the same place, but at y = 121.5. We create lines between the high points and the points on the ground floor (the cores) and calculate the distance from all points in the point cloud to the cores and store this in attribute 'dist'. 
+
+We shape the towers by deleting points in the point cloud that are above a certain height and exceed the distance from the cores. 
+
+The dist attribute is normalized and set as the attribute 'analysis3'.

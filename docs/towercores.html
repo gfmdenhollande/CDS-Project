@@ -15,17 +15,6 @@
     </head>
 
     <body class="w3-light-grey">
-        <!-- w3-content defines a container for fixed size centered content, 
-        and is wrapped around the whole page content, except for the footer in this example -->
-        <div class="w3-content" style="max-width:2000px">
-            
-            <!-- Header -->
-            <header class="w3-container w3-center w3-padding-48 w3-white">
-                <h1 class="w3-xxxlarge"><b>SHERLOCK HOMES</b></h1>
-                <h6>We find the best home <span class="w3-tag">for you</span></h6>
-            </header>
-        </div> 
-
         <!-- Sidebar/menu -->
         <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
             <div class="w3-container w3-display-container w3-padding-16">
@@ -67,13 +56,38 @@
             <!-- Push down content on small screens -->
             <div class="w3-hide-large" style="margin-top:83px"></div>
             
+            <!-- Header -->
+            <header class="w3-container w3-center w3-padding-48 w3-dark-grey">
+                <h1 class="w3-xxxlarge"><b>SHERLOCK HOMES</b></h1>
+                <h6>We find the best home <span class="w3-tag">for you</span></h6>
+            </header>
+
             <!-- Top header -->
             <header class="w3-container w3-xlarge">
                 <p class="w3-left">Tower cores analysis</p>
             </header>
+
+            <div class="w3-container w3-text-black" id="sunlight">
+                <p>The third analysis creates cores for the two towers, normalizes the distance to these cores from every point, and reshapes the voxel cloud based on the distance 
+                    to the cores and the height of the voxel. In this way the towers are shaped and their position is used as a value for the region growing</p>
+            </div>
         
             <div class="w3-container w3-text-black" id="sunlight">
-                <p>Hier kan allemaal info</p>
+                <p>Flowchart</p>
+            </div>
+
+            <!-- Image -->
+            <div class="w3-display-container w3-container">
+                <img src="flowchart_towers.jpeg" alt="Flowchart tower generation" style="width:100%">
+            </div>
+
+            <div class="w3-container w3-text-black" id="sunlight">
+                <p></p>
+            </div>
+            
+            <!-- Image -->
+            <div class="w3-display-container w3-container">
+                <img src="cores.png" alt="Tower cores" style="width:100%">
             </div>
 
             <!-- Footer -->
