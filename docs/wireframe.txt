@@ -1,0 +1,37 @@
+WIREFRAME
+Start: point cloud with seeded points
+
+Find all points within a radius that's as big as the voxelwidth and store the points in a list. Remove the first point in the list, since this is the point itself. Create a line from the point to all neighbours in the list. 
+
+---
+Loop:
+For all points:
+Create a list with the vertices that belong to that point
+If there are less than three vertices:
+	Create a list that contains all primitives connected to the point
+	Remove the primitives
+---
+
+Fuse everything
+Go into the growth model
+
+////////////////////////////////////////////////////////////////////
+
+SEED ALLOCATION
+Start: weighted voxelpoints:
+
+Create attribute groundfl and set value to -1 for all points
+Set value to 1 if the y-coordinate is 1.5
+
+Loop as many times as there are functions:
+Sort the wp values, starting with wp0
+Run over all points:
+	Keep count and store in a detail attribute. 
+	Stop the script when it finds an onoccupied point on the groundfloor
+	
+The counter is now the same as the pointnumber that is the best available point on the groundfloor
+Set this point as a parent
+
+
+
+
