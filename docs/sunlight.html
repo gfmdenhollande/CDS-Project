@@ -15,17 +15,6 @@
     </head>
 
     <body class="w3-light-grey">
-        <!-- w3-content defines a container for fixed size centered content, 
-        and is wrapped around the whole page content, except for the footer in this example -->
-        <div class="w3-content" style="max-width:1600px">
-            
-            <!-- Header -->
-            <header class="w3-container w3-center w3-padding-48 w3-white">
-                <h1 class="w3-xxxlarge"><b>SHERLOCK HOMES</b></h1>
-                <h6>We find the best home <span class="w3-tag">for you</span></h6>
-            </header>
-        </div> 
-
         <!-- Sidebar/menu -->
         <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
             <div class="w3-container w3-display-container w3-padding-16">
@@ -67,13 +56,30 @@
             <!-- Push down content on small screens -->
             <div class="w3-hide-large" style="margin-top:83px"></div>
             
+            <!-- Header -->
+            <header class="w3-container w3-center w3-padding-48 w3-dark-grey">
+                <h1 class="w3-xxxlarge"><b>SHERLOCK HOMES</b></h1>
+                <h6>We find the best home <span class="w3-tag">for you</span></h6>
+            </header>
+
             <!-- Top header -->
             <header class="w3-container w3-xlarge">
                 <p class="w3-left">Sunlight analysis</p>
             </header>
+
+            <div class="w3-container w3-text-black" id="sunlight">
+                <p>Flowchart</p>
+            </div>
+
+            <!-- Image -->
+            <div class="w3-display-container w3-container">
+                <img src="flowchart_sunlight.png" alt="Flowchart sunlight and shadow casting" style="width:100%">
+            </div>
         
             <div class="w3-container w3-text-black" id="sunlight">
-                <p>Hier kan allemaal info</p>
+                <p>One of our initial conducted analyses involved a sunlight analysis. In this analysis, we calculated the amount of sunlight on the building for each segment. 
+                    Parts receiving insufficient sunlight due to neighboring buildings casting excessive shadows were identified and removed as voxels. This process resulted in 
+                    a building envelope that adhered to the requirements for the desired amount of sunlight on the building. </p>
             </div>
 
             <!-- Footer -->

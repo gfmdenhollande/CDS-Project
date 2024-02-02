@@ -1,0 +1,54 @@
+Week 1
+The first week we got an introduction to the course and the software we are going to use. 
+This encompassed an introduction to computational design, procedural design and Houdini.
+On Wednesday we went on a field trip to the site location in Rotterdam to, among other things, 
+get a feeling for scale, typology, surroundings, possibilities, etc.
+
+On Thursday we worked on the program of requirements and had our first consultations. For the PoR
+we used the design brief, but we also used our self-defined design principles with relation to
+extra functions, relations between the different occupants, and collective space. We created a
+network diagram based on the functions in our building and also partly based on the already existing surroundings.
+
+
+Week 2
+This week we focussed on the start of our project with making a document in houdini where we included the 3DBag data with the 
+surroundings of the destined location, learned at the consultations of tuesday. We also made an excel table where we weighted the 
+importance of various functions to be close to eachother. This file can be put in as a parameter to use with making a bubble diagram. 
+
+After the consultations on tuesday, we continued working on the voxel grid and the bubble diagram. The voxel grid is now included in
+the surroundings, so that a calculation can be made on the voxel grid, compared to the near surroundings. We also assigned the needed
+square meters per function. 
+
+
+Week 3
+This week on tuesday during class, we learned about how we can make a sunpath analysis so we can apply it ourselves. We also got a 
+Lecture about the real masterplan for the area. After that on Tuesday we worked on the adjacency matrix. 
+
+For Thursday we worked on the user scenarios to see how the building could possibly be used and what should be taken into account while 
+designing the building. We also were able to put the data of the REL chart and data about the building, for example area's, in a houdini
+file. This made us a bubble diagram where the bubbles represent the different functions. It shows a globally defined layout of the
+different functions.
+
+
+Week 4
+This monday we put our building in the sunpath analysis. With this we calculated how much light each voxel in the building envelop is
+able to get and the voxels with an too low amount of hours of light are removed out of the building envelop. Besides caclulating on 
+our own building, we also made a file where we can calculate the hours of shadow the surrounding is about to get as a result of our
+building envelop, because we want to make sure the sourrinding is not effected to much in light hours by our building. We also started
+on making a houdini file to make a calculation to generize region growing with seed selection so that the function can be allocated in
+the building envelop. 
+
+
+Week 5
+This week we prepared for the midterm presentation of our project. The midterm presentation included our voxelized building envelope,
+shaped by a, still simple, version of the shadow analysis. Continued by a global layout in the functions in the building made with
+a region growing algorithm, based on our preferences on where the functions should be located in the building.
+
+
+Week 6
+This week we made progress in the region growing algorithm after discovering some defects. We also assigned a rule to the algorithm so
+that the functions stay put to the groundfloor and that the building is not higher then 15 floors. Something we will still look into
+is where to put the garage, because it's taking up too much space on the ground floor. We also worked on the making of the shadow
+casting analysis and found a way to make primitives, 5 by 3 metre, out of the surrounding buildings. Furthermore, we also started to 
+look at the facade of the building and what we want to do with it. Our first idea on what to do with the building, is to make circle,
+shaped windows, with a size depending on the amount of light we want to have in a certain area of the building. 
